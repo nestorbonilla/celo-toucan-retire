@@ -1,0 +1,31 @@
+{
+    "name": "celo-toucan-retire",
+    "version": "1.0.0",
+    "description": "Toucan Protocol retire demo project.",
+    "private": true,
+    "author": "Nestor Bonilla",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @celo-toucan-retire/react-app dev",
+        "react-app:build": "yarn workspace @celo-toucan-retire/react-app build",
+        "react-app:start": "yarn workspace @celo-toucan-retire/react-app start",
+        "react-app:lint": "yarn workspace @celo-toucan-retire/react-app lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nestorbonilla/celo-toucan-retire.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nestorbonilla/celo-toucan-retire/issues"
+    },
+    "homepage": "https://github.com/nestorbonilla/celo-toucan-retire/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo",
+        "toucan",
+        "refi"
+    ]
+}
